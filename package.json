@@ -6,8 +6,10 @@
   "main": "src/index.js",
   "dependencies": {
     "axios": "0.27.2",
+    "firebase": "9.7.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
+    "react-router-dom": "6.3.0",
     "react-scripts": "4.0.0",
     "vite": "2.9.6"
   },

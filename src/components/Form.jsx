@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Form = ({ setWord, getPhotoData }) => {
   return (
@@ -9,8 +9,17 @@ const Form = ({ setWord, getPhotoData }) => {
           name="keyword"
           placeholder="word"
           onChange={(e) => setWord(e.target.value)}
+          style={{
+            width: '250px',
+            padding: '0.5rem',
+            marginRight: '0.5rem'
+          }}
         />
-        <button type="submit" onClick={getPhotoData}>
+        <button
+          type="submit"
+          onClick={getPhotoData}
+          style={{ padding: '0.5rem' }}
+        >
           Search
         </button>
       </form>
